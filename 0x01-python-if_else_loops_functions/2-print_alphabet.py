@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-for i in range(97, 123):
-    print("{:c}".format(i), end='')
+ascii_a = ord('a')
+for c in range(ascii_a, ascii_a + 26):
+    print("{}".format(chr(c)), end="")
